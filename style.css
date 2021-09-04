@@ -1,0 +1,94 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+}
+
+/* HEADER */
+/*header
+{
+    height: 130px;
+}*/
+.container
+{
+    /*max-width: 1604px;*/
+    height: 130px;
+    /*background-color: aqua;*/
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar
+{
+    display: flex;
+   /* height: 130px;*/
+    justify-content: space-around;
+    align-items: center;
+    width: 40%; /* pour creer l'espace sur la navbar*/
+}
+#logo
+{
+    display: flex;
+    align-items: center;
+}
+#logo img
+{
+    width: 120px;
+    height: 50px;
+}
+/*recher*/
+/*.nav1
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+/**/
+div .nav1 a
+{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+/* hover*/
+div .nav1 a:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
+/**/
+
+div .nav2 a
+{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+div .nav2 a:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
+#registre a
+{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #0065FC;
+}
+#registre a:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
