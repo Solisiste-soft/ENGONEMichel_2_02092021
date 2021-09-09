@@ -167,3 +167,49 @@ header p
     width: 121px;
 
 }
+
+/* FILTRE */
+.filtre
+{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.filtreTitle
+{
+    font-size: 14px;
+    margin-right: 28px;
+
+}
+.filtreIconeArea
+{
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    margin-top: 5px;
+    border: 2px solid  #d9d9d9;
+    height: 50px;
+    border-left: none;
+    border-radius: 27px;
+    cursor: pointer;
+    /*padding: 9px;*/
+}
+.filtreIcone
+{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    color: #0065FC;
+    justify-content: center;
+    border-radius: 48%;
+    background-color: #DEEBFF;
+    margin-right: 0px;
+    height: 53px;
+    width: 55px;
+}
+.filtreText
+{
+    font-weight: bold;
+    padding: 18px 15px;
+}
