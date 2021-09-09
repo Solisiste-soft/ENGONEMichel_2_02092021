@@ -7,6 +7,7 @@
     font-family: Raleway,sans-serif;
 }
 
+
 /* HEADER */
 /*header
 {
@@ -91,4 +92,78 @@ div .nav2 a:hover
 {
     color: #0065FC;
     border-top: #0065FC 2px solid;
+}
+
+/* SECTION1 */
+/* MAIN */
+
+.main
+{
+    margin:0 50px;
+}
+header h1 
+{
+    font-size: 21px;
+}
+header p
+{
+    margin-top: 8px;
+    font-size: 15px;
+}
+/* SEARCH BAR*/
+.search
+{
+    display: block;
+    margin-top: 8px;
+}
+.searchIcon
+{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 10px;
+    width: 25px;
+    border-radius: 10px 0 0 10px;
+    font-size: 13px;
+}
+
+/* INPUT */
+
+.position
+{
+    display: inline-block;
+    /*height: 34px;*/
+    width: 225px;
+    padding: 0 1.3rem;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.position1
+{
+   height: 50px;
+   border-top: 1px solid #f2f2f2;
+   border-bottom: 1px solid #f2f2f2;
+   
+}
+/* BUTTON SEARCH*/
+
+.positionSearch
+{
+    display: flex;
+}
+
+.btn
+{
+    background-color: #0065FC;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 121px;
+
 }
