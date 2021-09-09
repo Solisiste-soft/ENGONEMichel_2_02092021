@@ -195,6 +195,15 @@ header p
     cursor: pointer;
     /*padding: 9px;*/
 }
+.filtreIconeArea:hover > .filtreText
+{
+    color: #0065FC;
+}
+.filtreIconeArea:hover > .filtreIcone
+{
+    color: white;
+    background-color: #0065FC;
+}
 .filtreIcone
 {
     display: flex;
@@ -212,4 +221,24 @@ header p
 {
     font-weight: bold;
     padding: 18px 15px;
+}
+
+/* RESULTAT */
+.resultfilter
+{
+    display: flex;
+    align-items: center;
+}
+.resulticon
+{
+    color: #0065FC;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
 }
