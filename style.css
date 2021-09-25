@@ -6,6 +6,30 @@
     text-decoration: none;
     font-family: Raleway,sans-serif;
 }
+.lodgingInformation h4
+{
+    color: black;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.lodgingInformation p
+{
+    font-size: 16px;
+    color: black;
+}
+.money
+{
+    color: black;
+    font-weight: bold;
+}
+.lodgingNote
+{
+    color: #0065FC;
+}
+.stars
+{
+    color: #d9d9d9;
+}
 
 
 /* HEADER */
@@ -248,23 +272,60 @@ header p
 {
     margin-top: 33px;
     display: grid;
-    grid-template-columns: 800px 447px;
+    grid-template-columns: 897px 447px;
     grid-column-gap: 33px;
 }
 .lodgingContent
 {
+    padding: 36px 33px 31px 33px;
     background-color: #f2f2f2;
+    border-radius: 1.5rem;
+}
+.lodgingContent h3
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.moreContent
+{
+    font-weight: bold;
+    color: black;
 }
 .lodgingItems
 {
+    padding: 31px 0px 35px 0px;
     display: grid;
     grid-template-columns: 256px 256px 256px;
+    grid-gap: 32px 32px;
     
 }
-/*.lodgingIcons
+.lodgingIcons
 {
   background-color: white;
-}*/
+  padding: 5px 7px 10px 7px;
+  border-radius: 1.9rem;
+  box-shadow: 0 0 16px #0000002e;
+}
+.lodgingIcons:hover
+{
+    transform: scale(1.02);
+}
+.BorderImage
+{
+    width: 244px;
+    height: 110px;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+/* lodgingInformation */
+.lodgingInformation
+{
+    padding: 9px 0px 4px 6px;
+}
+.lodgingNote
+{
+    padding: 0px 5px;
+}
 
 /* ASIDE */
 .popularity
