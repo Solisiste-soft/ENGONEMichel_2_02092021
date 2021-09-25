@@ -242,3 +242,33 @@ header p
     align-items: center;
     padding: 5px 6px;
 }
+
+/* SECTIOIN 2*/
+.lodging
+{
+    margin-top: 33px;
+    display: grid;
+    grid-template-columns: 800px 447px;
+    grid-column-gap: 33px;
+}
+.lodgingContent
+{
+    background-color: #f2f2f2;
+}
+.lodgingItems
+{
+    display: grid;
+    grid-template-columns: 256px 256px 256px;
+    
+}
+/*.lodgingIcons
+{
+  background-color: white;
+}*/
+
+/* ASIDE */
+.popularity
+{
+    background-color: greenyellow;
+    display: grid;
+}
