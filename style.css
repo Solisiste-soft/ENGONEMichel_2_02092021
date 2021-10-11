@@ -272,7 +272,7 @@ header p
 {
     margin-top: 33px;
     display: grid;
-    grid-template-columns: 897px 447px;
+    grid-template-columns: 897px 448px;
     grid-column-gap: 33px;
 }
 .lodgingContent
@@ -330,6 +330,69 @@ header p
 /* ASIDE */
 .popularity
 {
-    background-color: greenyellow;
+    background-color: #f2f2f2;
     display: grid;
+    border-radius: 1.5rem;
+}
+.popContent
+{
+    padding-top: 32px;
+}
+.PopIcons:hover
+{
+    transform: scale(1.02);
+}
+/*.popContent:hover
+{
+    transform: scale(1.02);
+}*/
+.popItems
+{
+    padding: 36px 32px 32px 32px;
+}
+.mostRank
+{
+    display: flex;
+    justify-content: space-between;
+}
+.mostImage
+{
+    display: flex;
+    background-color: white;
+    padding: 7px;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 16px #0000002e;
+    margin-bottom: 32px;
+}
+.popularName
+{
+    padding-left: 13px; 
+}
+.popBorder
+{
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+}
+.popStars
+{
+    padding-top: 58px;
+}
+.mostRank > h3
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.mostRank > i
+{
+    font-size: 24px;
+}
+.popularName > h4 
+{
+    font-size: 18px;
+    color: black;
+    padding-bottom: 4px;
+}
+.popularName > p
+{
+    color: black;
 }
