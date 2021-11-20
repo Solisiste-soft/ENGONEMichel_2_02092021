@@ -396,3 +396,68 @@ header p
 {
     color: black;
 }
+
+/* SECTION3 */
+.section3
+{
+    margin-top: 87px;
+}
+
+#ActivitiesGrid
+{
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-gap: 32px;
+    margin-top: 25px;
+}
+.Activity
+{
+/*    background-color: white;
+    box-shadow: 0 0 20px #0000002e;
+    
+    
+    grid-template-rows: 289px 226px;*/
+    display: grid;
+    grid-gap: 32px;
+   
+}
+.ActItems
+{
+    background-color: white;
+    box-shadow: 0 0 20px #0000002e;
+
+    border-top-left-radius: 1.5rem;
+    overflow: hidden;
+    border-top-right-radius: 1.5rem;
+    border-radius: 1.5rem;
+}
+.ActItems:hover
+{
+    transform: scale(1.05);
+}
+
+.ActivityCards
+{
+    background-color: white;
+    box-shadow: 0 0 20px #0000002e;
+
+    border-top-left-radius: 1.5rem;
+    overflow: hidden;
+    border-top-right-radius: 1.5rem;
+    border-radius: 1.5rem;
+}
+.ActivityCards:hover
+{
+    transform: scale(1.02);
+}
+
+.Actproper
+{
+    margin: 20px 24px;
+    font-weight: bold;
+    color: black;
+}
+.bibi
+{
+    margin-top: 30px;
+}
